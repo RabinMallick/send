@@ -88,8 +88,8 @@ totalSize = Total size: { $size }
 copyLinkDescription = Copy the link to share your file:
 copyLinkButton = Copy link
 downloadTitle = Download files
-downloadDescription = This file was shared via { -send-brand } with end-to-end encryption and a link that automatically expires.
-trySendDescription = Try { -send-brand } for simple, safe file sharing.
+downloadDescription = This file was shared via uploaded.moe with end-to-end encryption and a link that automatically expires.
+trySendDescription = Try uploaded.moe for end-to-end encrypted file sharing.
 # count will always be > 10
 tooManyFiles = { $count ->
      [one] Only 1 file can be uploaded at a time.
