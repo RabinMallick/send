@@ -162,7 +162,7 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'uploaded.moe',
     env: 'BASE_URL'
   },
   detect_base_url: {

@@ -22,7 +22,7 @@ import { setTranslate } from '../app/utils';
 import { delay } from '../app/utils';
 
 if (navigator.userAgent === 'Send Android') {
-  setApiUrlPrefix('https://send.firefox.com');
+  setApiUrlPrefix('uploaded.moe');
 }
 
 const app = choo();

@@ -8,7 +8,7 @@ try {
   // NOOP
 }
 if (!fileProtocolWssUrl) {
-  fileProtocolWssUrl = 'wss://send.firefox.com/api/ws';
+  fileProtocolWssUrl = 'wss://uploaded.moe/api/ws';
 }
 
 export class ConnectionError extends Error {
