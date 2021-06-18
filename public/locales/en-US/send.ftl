@@ -52,7 +52,7 @@ passwordSetError = This password could not be set
 -mozilla = Mozilla
 
 introTitle = uploaded.moe
-introDescription = { -send-brand } Simple, unlimited, end-to-end encrypted, censorship-resilient file sharing for the masses. Provided as a free service for a time being. See about.uploaded.moe for more details and a future roadmap on how we plan to make this sustainable.
+introDescription = Simple, unlimited, end-to-end encrypted, censorship-resilient file sharing for the masses. Provided as a free service for a time being. See about.uploaded.moe for more details and a future roadmap on how we plan to make this sustainable.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
