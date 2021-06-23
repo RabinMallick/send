@@ -73,7 +73,7 @@ class Footer extends Component {
         <ul
           class="flex flex-col md:flex-row items-start md:items-center md:justify-end"
         >
-          ${links}
+          
         </ul>
       </footer>
     `;
