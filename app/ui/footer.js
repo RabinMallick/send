@@ -49,18 +49,14 @@ class Footer extends Component {
       if (WEB_UI.FOOTER_SOURCE_URL != '') {
         links.push(html`
           <li class="m-2">
-            <a href="${WEB_UI.FOOTER_SOURCE_URL}" target="_blank">
-              ${translate('footerLinkSource')}
-            </a>
+
           </li>
         `);
       }
     } else {
       links.push(html`
         <li class="m-2">
-          <a href="https://gitlab.com/timvisee/send" target="_blank">
-            ${translate('footerLinkSource')}
-          </a>
+
         </li>
       `);
     }
@@ -72,7 +68,7 @@ class Footer extends Component {
         <ul
           class="flex flex-col md:flex-row items-start md:items-center md:justify-start"
         >
-          <li class="m-2">${translate('footerText')}</li>
+          <li class="m-2"></li>
         </ul>
         <ul
           class="flex flex-col md:flex-row items-start md:items-center md:justify-end"
