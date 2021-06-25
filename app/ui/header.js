@@ -23,9 +23,7 @@ class Header extends Component {
         ? html`
             <a class="flex flex-row items-center">
               <img src="${assets.get('uploadedmoe_logo_32.png')}" />
-              <svg class="w-48">
-                <use xlink:href="${assets.get('logo.png')}#logo" />
-              </svg>
+              <img class="w-48" src="${assets.get('logo.png')}" />
             </a>
           `
         : html`
@@ -34,9 +32,7 @@ class Header extends Component {
                 alt="${this.state.translate('title')}"
                 src="${assets.get('uploadedmoe_logo_32.png')}"
               />
-              <svg viewBox="66 0 340 64" class="w-48 md:w-64">
-                <use xlink:href="${assets.get('logo.png')}#logo" />
-              </svg>
+              <img viewBox="66 0 340 64" class="w-48 md:w-64" src="${assets.get('logo.png')}" />
             </a>
           `;
     return html`
